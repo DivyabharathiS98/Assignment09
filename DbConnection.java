@@ -6,7 +6,7 @@ public class DbConnection {
 		String url="jdbc:oracle:thin:@localhost:1521:XE";
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection con=DriverManager.getConnection(url,"mohit","mohit");
+			Connection con=DriverManager.getConnection(url,"root","root");
 			return con;
 		}
 		catch (ClassNotFoundException e) {
