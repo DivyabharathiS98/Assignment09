@@ -11,7 +11,7 @@ public class Driver {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
 		Functions func=new Functions();
 		Scanner sc=new Scanner(System.in);
-		File f=new File("C:\\Users\\Mohit\\eclipse-workspace\\Ass09\\src\\movieDetails.txt");
+		File f=new File("C:\\Users\\LENOVO\\eclipse-workspace\\Assignment09\\src\\movieDetails.txt");
 		List<Movie> m=func.populateMovies(f);
 		System.out.println("Enter your choice");
 		int choice=sc.nextInt();
